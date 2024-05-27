@@ -1,4 +1,4 @@
-# Trabalho de Sistemas Distribuídos - Computação Paralela e Distribuída
+# Trabalho de Sistemas Distribuídos &mdash; Computação Paralela e Distribuída
 
 O trabalho a que o presente documento diz respeito, no âmbito da unidade curricular Computação Paralela e Distribuída, tem como objetivo criar um sistema cliente-servidor utilizando sockets TCP em Java que permita que vários utilizadores joguem o jogo "Quem acerta mais perto". Para isso, a solução desenvolvida permite que os jogadores se autentiquem e, depois, se juntem a um de dois lobbies (Simple Lobby e Rank Lobby), que constituirão partidas com um número de jogadores parametrizável, de formas distintas. Uma vez formado o grupo de jogo, uma nova instância de Game é criada, dando início a uma partida entre os jogadores selecionados.
 
@@ -29,8 +29,6 @@ Para correr o cliente, deve executar o comando `make run_client`.
 #### Base de Dados
 
 Ficheiro `csv` que assegura a persistência da informação dos jogadores registados, nomeadamente: nome de utilizador (_username_), palavra-passe e pontuação total.
-
-<br>
 
 #### Server.java:
 
@@ -103,8 +101,6 @@ Para criar os conjuntos, o programa ordena todos os valores de entrada e saída 
 #### Game.java
 
 Responsável pela implementação de uma partida do jogo e da interação ao longo das suas rondas.
-
-<br><br><br><br>
 
 ## Cliente
 
